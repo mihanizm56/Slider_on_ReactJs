@@ -10,11 +10,11 @@ import styled from 'styled-components';
 class App extends Component {
   render() {
     return (
-      <div className='wrapper'>
-        <SayFullName name='A1' surname='B1' link='C1' />
-        <SayFullName name='A2' surname='B2' link='C2' />
-        <SayFullName name='A3' surname='B3' link='C3' />
-      </div>
+        <div className='wrapper'>
+          <SayFullName name='A1' surname='B1' link='C1' />
+          <SayFullName name='A2' surname='B2' link='C2' />
+          <SayFullName name='A3' surname='B3' link='C3' />
+        </div>
     );
   }
 }
